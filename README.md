@@ -46,3 +46,8 @@ public class Contador {
 	}
 }
 ```
+
+##### Observação:
+
+Embora a atividade tenha dado como sugestão o código acima, optei por criar um código um pouco diferente do indicado 
+para que eu pudesse aplicar outros conceitos da linguagem.

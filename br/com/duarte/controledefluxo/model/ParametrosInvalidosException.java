@@ -1,5 +1,5 @@
 package br.com.duarte.controledefluxo.model;
 
-public class ParametrosInvalidosException {
-    
+public class ParametrosInvalidosException extends  Exception{
+
 }

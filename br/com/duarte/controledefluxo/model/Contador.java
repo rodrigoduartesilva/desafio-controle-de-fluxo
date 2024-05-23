@@ -22,11 +22,12 @@ public class Contador {
         return segundoNumero;
     }
 
-    public void iterarNumeros(int primeiroNumero, int segundoNumero) {
+    public void contar(int primeiroNumero, int segundoNumero) throws ParametrosInvalidosException {
         int calculaDiferenca = segundoNumero - primeiroNumero;
 
+
         if(primeiroNumero > segundoNumero) {
-            System.out.println("O primeiro número deve ser menor que o segundo número");
+            throw new ParametrosInvalidosException();
         } else {
             for (int i = 0; i < calculaDiferenca; i++) {
                 System.out.println("Imprimindo o número " + (i + 1));
